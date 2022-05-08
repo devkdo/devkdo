@@ -1,4 +1,4 @@
-## Developer Portfolio: Kaido
+## Developer Portfolio
 
 Thanks for visiting [devkdo.com](http://devkdo.com/)! Feel free to [download my resume]() or scroll down to review some key-takeaways and projects-completed.
 
@@ -8,3 +8,4 @@ Kaido is currently a Software Engineer at LM Corporation working with modeling a
 
 ### Tech Skills
 
+### Projects
