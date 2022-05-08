@@ -1,6 +1,6 @@
 ## Developer Portfolio
 
-Thanks for visiting [devkdo.com](http://devkdo.com/)! Feel free to [download my resume]() or scroll down to review some key-takeaways and projects-completed.
+Thanks for visiting [devkdo.com](http://devkdo.com/)! Feel free to download my resume and view my quick links on the side bar; or scroll down to review some key-takeaways and projects-completed. :)
 
 ### Bio
 
