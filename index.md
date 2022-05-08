@@ -8,4 +8,14 @@ Kaido is currently a Software Engineer at LM Corporation working with modeling a
 
 ### Tech Skills
 
-### Projects
+### My Projects
+  - [Post Search]()
+    - Searching posts based on dynamic input
+  - [Post Sort]()
+    - Sorting posts based on tags
+  - [C++ Hangman](https://github.com/dekaido/ConsoleHangman)
+    - C++ Tutorial for beginners (IEEE)
+  - [RFID LEDs](https://github.com/dekaido/RFID_LEDS)
+    - Arduino Tutorial for beginners (IEEE)
+  - [Stubs: Penn State Student Clubs](https://github.com/dekaido/stubs)
+    -  Redesign and Rebrand of Penn State student orgs (HackPSU)
