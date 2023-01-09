@@ -2,22 +2,22 @@
   <div class="home">
     <div class="letters">
       <div class="unit">
-        <img src="../assets/D.png"/>
+        <img src="../assets/img/D.png"/>
       </div>
       <div class="unit">
-        <img src="../assets/D.png"/>
+        <img src="../assets/img/D.png"/>
       </div>
       <div class="unit">
-        <img src="../assets/D.png"/>
+        <img src="../assets/img/D.png"/>
       </div>
       <div class="unit">
-        <img src="../assets/O.png"/>
+        <img src="../assets/img/O.png"/>
       </div>
       <div class="unit">
-        <img src="../assets/O.png"/>
+        <img src="../assets/img/O.png"/>
       </div>
       <div class="unit">
-        <img src="../assets/O.png"/>
+        <img src="../assets/img/O.png"/>
       </div>
     </div>
   </div>
