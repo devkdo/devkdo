@@ -1,5 +1,22 @@
-<template>
+ <template>
   <div class="home">
+    <div class="menu">
+      <div class="menu-item">
+        Resume
+      </div>
+      <div class="menu-item">
+        Projects
+      </div>
+      <div class="menu-item menu-center">
+        Dev Kdo
+      </div>
+      <div class="menu-item">
+        Travel
+      </div>
+      <div class="menu-item">
+        About
+      </div>
+    </div>
     <div class="letters">
       <div class="unit">
         <img src="../assets/img/D.png"/>
@@ -35,6 +52,22 @@ export default {
 .home{
   width: 100%;
   margin: 5;
+}
+.menu{
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+.menu-item{
+  flex: 1;
+  text-align: center;
+  color: lightgray;
+  font-size: medium;
+}
+.menu-center{
+  font-size: x-large;
 }
 .letters{
   display: flex;
