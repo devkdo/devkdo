@@ -18,24 +18,26 @@
       </div>
     </div>
     <div class="letters">
-      <div class="unit">
-        <img src="../assets/img/D.png"/>
+      <div class="unit unit-front">
+        <img src="../assets/img/K-bg.png"/>
       </div>
-      <div class="unit">
-        <img src="../assets/img/D.png"/>
+      <div class="unit unit-front">
+        <img src="../assets/img/A-bg.png"/>
       </div>
-      <div class="unit">
-        <img src="../assets/img/D.png"/>
+      <div class="unit unit-front">
+        <img src="../assets/img/I-bg.png"/>
       </div>
-      <div class="unit">
-        <img src="../assets/img/O.png"/>
+      <div class="unit unit-bg">
+        <img src="../assets/img/D-bg.png"/>
+        <!-- <img src="../assets/img/D-bold.png"/> -->
       </div>
-      <div class="unit">
-        <img src="../assets/img/O.png"/>
+      <div class="unit unit-bg">
+        <img src="../assets/img/O-bg.png"/>
+        <!-- <img src="../assets/img/O-bold.png"/> -->
       </div>
-      <div class="unit">
-        <img src="../assets/img/O.png"/>
-      </div>
+      <!-- <div class="unit">
+        <img src="../assets/img/K.png"/>
+      </div> -->
     </div>
   </div>
 </template>
@@ -66,8 +68,12 @@ export default {
   color: lightgray;
   font-size: medium;
 }
+.menu-item:hover{
+  border-bottom: 2px;
+}
 .menu-center{
   font-size: x-large;
+  color: white;
 }
 .letters{
   display: flex;
@@ -79,8 +85,25 @@ export default {
 }
 .unit{
   margin: .8%;
-  filter: invert(100);
+  filter:blur(1px) opacity(.9) grayscale(1);
 }
+.unit:hover{
+  filter:blur(0px) opacity(1) grayscale(0) drop-shadow(0 0 0.75rem blue);
+}
+/* .unit-front{ */
+  /* filter:opacity(.9) */
+/* } */
+/* .unit-front:hover{ */
+  /* filter: opacity(1); */
+/* } */
+/* .unit-bg{ */
+  /* filter: invert(1) brightness(0.5); */
+  /* filter: grayscale(); */
+/* } */
+/* .unit-bg:hover{ */
+  /* background-image: url(../assets/img/D-bg.png); */
+  /* filter:blur(0)opacity(1); */
+/* } */
 .unit img{
   width: 100%;
 }
