@@ -1,0 +1,19 @@
+{
+    "name": "dvkdo",
+    "description": "porfolio",
+    "authors": "devkdo",
+    "version": "1.0.0",
+    "module": "src/assets/js/main.js",
+    "scripts": {
+        "dev": "parcel src/index.html -p 3000 --open",
+        "build": "parcel src/index.html build",
+        "clean": "rm -rf dist .parcel-cache"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.12.0",
+        "parcel": "^2.12.0"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3"
+    }
+}
